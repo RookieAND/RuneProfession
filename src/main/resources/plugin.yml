@@ -1,0 +1,14 @@
+name: RuneProfession
+version: '${project.version}'
+main: com.rookieand.runeprofession.RuneProfession
+api-version: 1.16
+prefix: RuneProfession
+authors: [RookieAND_]
+description: 룬 온라인 전문기술 관련 플러그인입니다.
+website: cafe.naver.com/mcruneonline
+depend: [MMOCore]
+commands:
+  전문기술:
+    description: 현재 유저의 전문기술 정보를 열람하는 명령어입니다.
+    usage: /전문기술
+    permission: runeprofession.command.information
